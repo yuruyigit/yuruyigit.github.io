@@ -1,0 +1,240 @@
+*{
+    font-family: "Microsoft YaHei", "微软雅黑";
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+img{
+    border: 0;
+}
+.size12{
+    font-size: 12px !important;
+}
+.size14{
+    font-size: 14px !important;
+}
+.size16{
+    font-size: 16px !important;
+}
+.size18{
+    font-size: 18px !important;
+}
+.size20{
+    font-size: 20px !important;
+}
+.size22{
+    font-size: 22px !important;
+}
+.size24{
+    font-size: 24px !important;
+}
+.size26{
+    font-size: 26px !important;
+}
+.size28{
+    font-size: 28px !important;
+}
+.size30{
+    font-size: 30px !important;
+}
+.size32{
+    font-size: 32px !important;
+}
+.size34{
+    font-size: 34px !important;
+}
+.size36{
+    font-size: 36px !important;
+}
+.size38{
+    font-size: 38px !important;
+}
+.size40{
+    font-size: 40px !important;
+}
+.size50{
+    font-size: 50px !important;
+}
+.colorfff{
+    color: #fff !important;
+}
+.bold{
+    font-weight: bold !important;
+}
+/*公共部分 start*/
+.wth-100{
+    width: 100%;
+}
+.mag-top-bottom10{
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+.mag-top-bottom20{
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+.mag-top-bottom24{
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.mag-top-bottom30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mag-top-bottom50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mag-top-bottom100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.mag-top20{
+    margin-top: 20px;
+}
+@media (max-width: 700px) {
+    .mag-top-bottom50{
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .mag-top-bottom20{
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+    }
+    .mag-top-bottom24{
+        margin-top: 1em;
+        margin-bottom: 0.9em;
+    }
+    .mag-top-bottom30{
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+    .mag-top-bottom100 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+/*公共部分 end*/
+/*公共头部css start*/
+body{
+    background: #fff;
+}
+.bgfff{
+    background: #fff;
+}
+.shadow{
+    -webkit-box-shadow: 0 6px 12px rgba(144,144,144,.175);
+    -moz-box-shadow: 0 6px 12px rgba(144,144,144,.175);
+    -o-box-shadow: 0 6px 12px rgba(144,144,144,.175);
+    box-shadow: 0 6px 12px rgba(144,144,144,.175);
+}
+.navbar-toggle {
+    background: #8D8D8D;
+}
+.navbar-toggle .icon-bar{
+    background: #fff;
+}
+.navbar-brand{
+    height: 100px;
+    padding: 17px 15px;
+}
+.navbar-brand>img {
+    display: block;
+    width: 100%;
+}
+@media (min-width: 1000px){
+    .navbar-right{
+        padding: 36px 0 0 0;
+    }
+}
+@media (max-width: 768px){
+    .navbar-right{
+        padding: 0;
+        margin: 0 !important;
+    }
+}
+.navbar-toggle{
+    margin-top: 40px;
+}
+.navbar-nav>li>a{
+    color: #000;
+    font-size: 18px;
+    padding: 1em 0.8em;
+    transition: .4s;
+}
+.navbar-nav>li>a.current{
+    color: #da0101;
+}
+@media (min-width: 800px){
+    .navbar-nav>li>a{
+        padding: 1em 0.4em;
+    }
+}
+@media (min-width: 1000px){
+    .navbar-nav>li>a{
+        padding: 1em 0.6em;
+    }
+}
+@media (min-width: 1200px){
+    .navbar-nav>li>a{
+        padding: 1em;
+    }
+}
+.navbar-nav>li>a:hover{
+    color: #da0101;
+}
+/*公共头部css end*/
+
+/*公共底部css start*/
+.footer{
+    background: #0c0c0c;
+    padding: 20px 0;
+    color: #a2a2a2;
+}
+@media (max-width: 990px) {
+    .ms-left{
+        text-align: left;
+        float: none !important;
+    }
+    .ms-center{
+        text-align: center;
+        float: none !important;
+    }
+    .center{
+        text-align: center;
+    }
+}
+.bottom-border{
+    border-bottom: 1px solid #828282;
+}
+.pad-top-bottom20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer a{
+    color: #a2a2a2;
+}
+.wechat_boxs{
+    opacity: 1;
+    transition: .4s;
+}
+@media (min-width: 1000px) {
+    .wechat_boxs{
+        opacity: 0;
+        transition: .4s;
+    }
+}
+.map_boxs a{
+    font-size: 12px;
+}
+.map_boxs div ul{
+    margin-left: 20px;
+}
+.map_boxs div ul li a{
+    line-height: 24px;
+    transition: .4s;
+}
+.map_boxs div ul li a:hover{
+    color: #da0101;
+}
+/*公共底部css end*/
