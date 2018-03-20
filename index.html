@@ -1,1 +1,298 @@
-aaaaa
+﻿<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>幂玛游戏官网</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/plugins/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="css/plugins/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="font-awesome/css/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="css/layout.css?t=2" rel="stylesheet">
+    <link href="css/index.css?t=2" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins/metisMenu/metisMenu.min.js"></script>
+    <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="js/sb-admin-2.js"></script>
+</head>
+
+<body>
+    <!--公共头部 start-->
+    <div class="navbar  navbar-fixed-top bgfff shadow">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" style="display: block">
+                    <img src="images/public/logo.jpg">
+                </a>
+            </div>
+            <div class="navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="service-protocol.html">服务协议</a>
+                    </li>
+                    <li>
+                        <a href="guardianship.html">家长监护</a>
+                    </li>
+                    <li>
+                        <a href="contact_us.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="" style="height: 100px;"></div>
+    <!--公共头部 end-->
+
+    <!-- <div class="col-ms-12  text-center" style="position:relative">
+        <img width="100%" src="./images/mj_index/officialwebsite_firstscreen.jpg">
+        <div style="position:absolute;left:7%;bottom:5%;">
+            <div style="margin-bottom:10%"><a href="http://tai-res.alfakingdom.com/version/android/tai_GUANWANG.apk" id="btn-download-andriod"></a></div>
+            <div style="margin-bottom:10%"><a href = "https://itunes.apple.com/us/app/%E5%B0%B1%E7%8E%A9%E5%8F%B0%E5%B7%9E%E9%BA%BB%E5%B0%86/id1306500014?l=zh&ls=1&mt=8" id="btn-download-ios"></a></div>
+            <div><img id="qr-code" src="./images/mj_index/officialwebsite_QRcode.png" alt=""></div>
+            
+        </div>
+
+    </div>
+    <div class="col-ms-12  text-center" style="margin-top:-3px">
+        <img width="100%" src="./images/mj_index/officialwebsite_activity.png">
+    </div> -->
+
+    <div class="col-ms-12  text-center" style="margin-top:0px">
+        <img width="100%" src="./images/mj_index_temp/img_01.png">
+    </div>
+    <div class="col-ms-12  text-center" style="margin-top:0px">
+        <img width="100%" src="./images/mj_index_temp/img_02.png">
+    </div>
+    <div class="col-ms-12  text-center" style="margin-top:0px">
+        <img width="100%" src="./images/mj_index_temp/img_03.jpg">
+    </div>
+    <div class="col-ms-12  text-center" style="margin-top:0px">
+        <img width="100%" src="./images/mj_index_temp/img_04.png">
+    </div>
+    <div class="col-ms-12  text-center" style="margin-top:20px;margin-bottom:20px">
+        <img width="100%" src="./images/mj_index_temp/img_04.1.png">
+    </div>
+
+    <script>
+        for (i = 0, arE = $(".partner-text-bg .text"), arEL = arE.length; i < arEL; i++) {
+            var hgt = $(arE.get(i)).parent().parent().parent(".img-boxs").height();
+            $(arE.get(i)).css({ top: (hgt - $(arE.get(i)).height()) / 2 + "px" });
+        }
+        window.onresize = function () {
+            for (i = 0, arE = $(".partner-text-bg .text"), arEL = arE.length; i < arEL; i++) {
+                var hgt = $(arE.get(i)).parent().parent().parent(".img-boxs").height();
+                $(arE.get(i)).css({ top: (hgt - $(arE.get(i)).height()) / 2 + "px" });
+            }
+        }
+    </script>
+
+    <!-- 留言板 -->
+    <style>
+        #btn-download-andriod {
+            background: url("./images/mj_index/officialwebsite_Andriod_btn.png")no-repeat;
+            background-size: 100% 100%;
+            border: 0px;
+            width: 249px;
+            height: 82px;
+            display: block;
+        }
+
+        #btn-download-ios {
+            background: url("./images/mj_index/officialwebsite_Ios_btn.png")no-repeat;
+            background-size: 100% 100%;
+            border: 0px;
+            width: 249px;
+            height: 82px;
+            display: block;
+        }
+
+        .btn-sendmsg {
+            color: #FFFFFF;
+            background-color: #4096EE;
+            border-color: #4096EE;
+            width: 160px;
+        }
+
+        .tips {
+            height: 100px;
+            background-color: #3c3c3c;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .tips-child {
+            width: 100%;
+            height: 50%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+    <div class="container">
+
+    </div>
+    <script>
+        var lastMessage = "";
+
+        $("#btn_msg").on("click", function (event) {
+            var params = [];
+            var labels = ['name', 'phone', 'company', 'business', 'message'];
+            var isAllEmpty = true;
+            for (var i = 0; i < labels.length; i++) {
+                var label = labels[i];
+                var value = $("#" + label).val();
+                if (value) {
+                    isAllEmpty = false;
+                    params.push(label + "=" + value);
+                }
+            }
+
+            if (isAllEmpty) {
+                alert("请在上方填写留言内容");
+                return;
+            }
+
+            var msg = params.join('&');
+
+            if (msg == lastMessage) {
+                alert("留言成功");
+                return;
+            }
+
+            $.ajax({ url: 'http://service.kinsoo.com/message/addMessage?' + msg })
+                .done(function () {
+                    lastMessage = msg;
+                    alert('留言成功');
+                })
+                .fail(function () {
+                    alert('很抱歉,留言功能暂时不可能,请通过电话或邮件等方式联系我们');
+                });
+        });
+    </script>
+    <!-- 留言板 end -->
+    <!--内容部分 end-->
+
+
+    <!--公共底部 start-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2 ms-center mag-top-bottom10">
+                    <img src="images/public/img_01.png">
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-10 ms-center mag-top-bottom10">
+                    <div class="pull-left ms-center mag-top20">
+                        <p>
+                            上海幂玛网络科技有限公司&nbsp&nbsp&nbsp&nbsp客服电话： 021-60533415 、13901713416
+                            <br> 公司地址：上海市浦东新区沪南路2419弄30号5楼511~512室
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="bottom-border pad-top-bottom20 ms-center size16" style="padding-left: 10px">网站地图</p>
+                </div>
+            </div>
+            <div class="row map_boxs">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 mag-top-bottom10">
+                    <ul>
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 mag-top-bottom10">
+                    <ul>
+                        <li>
+                            <a href="service-protocol.html">服务协议</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 mag-top-bottom10">
+                    <ul>
+                        <li>
+                            <a href="guardianship.html">家长监护</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-2 mag-top-bottom10">
+                    <ul>
+                        <li>
+                            <a href="contact_us.html">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-center mag-top-bottom10 size14">Copyright @ 2018 Mixmarvel Limited 保留所有权利 备案号: <a href='http://www.miitbeian.gov.cn' target="_blank">沪ICP备17052931号-1</a></p>
+        </div>
+        <script type="text/javascript">
+            jQuery(document).ready(function ($) {
+                //            $('.scroll_top').click(function(){$('html,body').animate({scrollTop: '0px'}, 800);});
+                $('.news-btn').click(function () {
+                    $('html,body').animate({ scrollTop: $('#gift').offset().top }, 800);
+                });
+                //            $('.scroll_bottom').click(function(){$('html,body').animate({scrollTop:$('.bottom').offset().top}, 800);});
+            });
+        </script>
+
+        <script>
+            var body_wth = $(window).width();
+            if (body_wth > 1000) {
+                $(".wechat_btn").mouseover(function () {
+                    $(".wechat_boxs").css({ opacity: '1' });
+                });
+                $(".wechat_btn").mouseout(function () {
+                    $(".wechat_boxs").css({ opacity: '0' });
+                });
+                $(".wechat_boxs ul").mouseover(function () {
+                    $(".wechat_boxs").css({ opacity: '1' });
+                });
+                $(".wechat_boxs ul").mouseout(function () {
+                    $(".wechat_boxs").css({ opacity: '0' });
+                });
+            }
+            window.onresize = resize;
+            function resize () {
+                let w = window.innerWidth;
+                let h = window.innerHeight;
+                let s = w / 2440;   //缩放比例
+                let btnAndriod = document.getElementById('btn-download-andriod');
+                let btnIos = document.getElementById('btn-download-ios');
+                let qrCode = document.getElementById('qr-code');
+                btnAndriod.style.width = s * 249 + 'px';
+                btnAndriod.style.height = s * 82 + 'px';
+                btnIos.style.width = s * 249 + 'px';
+                btnIos.style.height = s * 82 + 'px';
+                qrCode.style.width = qrCode.style.height = s * 258 + 'px';
+            }
+            resize();
+        </script>
+    </div>
+    <!--公共底部 end-->
+</body>
+
+</html>
